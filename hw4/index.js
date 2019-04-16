@@ -8,11 +8,30 @@ const HOSTED_URLS = {
 
 const examples = {
   'example1':
-      'Alice was beginning to get very tired of sitting by her sister on the bank.',
+      'The aunt was a capricious woman, and governed her husband entirely;
+but it was not in Mr',
   'example2':
-      'Buda-Pesth seems a wonderful place.',
+      'You looke pale, and gaze, and put on feare,
+And cast your selfe in wonder,
+To see the strange impatience of the Heauens:
+But if you would consider the true cause,
+Why all these Fires, why all these gliding Ghosts,
+Why Birds and Beasts, from qualitie and kinde,
+Why Old men, Fooles, and Children calculate,
+Why all these things change from their Ordinance,
+Their Natures, and pre-formed Faculties,
+To monstrous qualitie; why you shall finde,
+That Heauen hath infus'd them with these Spirits,
+To make them Instruments of feare, and warning,
+Vnto some monstrous State',
   'example3':
-      'Scepticism was as much the result of knowledge, as knowledge is of scepticism.'      
+      'One world is aware and by far the largest to me, and that is myself,
+And whether I come to my own to-day or in ten thousand or ten
+    million years,
+I can cheerfully take it now, or with equal cheerfulness I can wait',  
+  'example4':
+  'JOHN HUNTER'S ACCOUNT OF THE
+DISSECTION OF A WHALE'
 };
 
 function status(statusText) {
