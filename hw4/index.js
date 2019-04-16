@@ -8,30 +8,13 @@ const HOSTED_URLS = {
 
 const examples = {
   'example1':
-      'The aunt was a capricious woman, and governed her husband entirely;
-but it was not in Mr',
+      'The aunt was a capricious woman, and governed her husband entirely',
   'example2':
-      'You looke pale, and gaze, and put on feare,
-And cast your selfe in wonder,
-To see the strange impatience of the Heauens:
-But if you would consider the true cause,
-Why all these Fires, why all these gliding Ghosts,
-Why Birds and Beasts, from qualitie and kinde,
-Why Old men, Fooles, and Children calculate,
-Why all these things change from their Ordinance,
-Their Natures, and pre-formed Faculties,
-To monstrous qualitie; why you shall finde,
-That Heauen hath infus'd them with these Spirits,
-To make them Instruments of feare, and warning,
-Vnto some monstrous State',
+      'You looke pale, and gaze, and put on feare, And cast your selfe in wonder,To see the strange impatience of the Heauens',
   'example3':
-      'One world is aware and by far the largest to me, and that is myself,
-And whether I come to my own to-day or in ten thousand or ten
-    million years,
-I can cheerfully take it now, or with equal cheerfulness I can wait',  
+      'One world is aware and by far the largest to me, and that is myself,And whether I come to my own to-day or in ten thousand or ten',  
   'example4':
-  'JOHN HUNTER'S ACCOUNT OF THE
-DISSECTION OF A WHALE'
+  'JOHN HUNTER'S ACCOUNT OF THE DISSECTION OF A WHALE'
 };
 
 function status(statusText) {
