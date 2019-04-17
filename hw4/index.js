@@ -10,9 +10,9 @@ const examples = {
   'example1':
       'The aunt was a capricious woman, and governed her husband entirely',
   'example2':
-      'You looke pale, and gaze, and put on feare, And cast your selfe in wonder,To see the strange impatience of the Heauens',
+      'You looke pale, and gaze, and put on feare, And cast your selfe in wonder',
   'example3':
-      'One world is aware and by far the largest to me, and that is myself,And whether I come to my own to-day or in ten thousand or ten',  
+      'One world is aware and by far the largest to me, and that is myself',  
   'example4':
       'JOHN HUNTER'S ACCOUNT OF THE DISSECTION OF A WHALE'
 };
@@ -49,11 +49,11 @@ function doPredict(predict) {
   const result = predict(textField.value);
   score_string = "Class scores: ";
   for (var x in result.score) {
-    score_string += x + " ->  " + result.score[x].toFixed(3) + ", "
+    score_string += x + " ->  " + result.score[x].toFixed(4) + ", "
   }
   //console.log(score_string);
   status(
-      score_string + ' elapsed: ' + result.elapsed.toFixed(3) + ' ms)');
+      score_string + ' elapsed: ' + result.elapsed.toFixed(4) + ' ms)');
 }
 
 function prepUI(predict) {
