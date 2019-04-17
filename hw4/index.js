@@ -8,13 +8,11 @@ const HOSTED_URLS = {
 
 const examples = {
   'example1':
-      'The aunt was a capricious woman, and governed her husband entirely',
+      'Alice was beginning to get very tired of sitting by her sister on the bank.',
   'example2':
-      'You looke pale, and gaze, and put on feare, And cast your selfe in wonder',
+      'Buda-Pesth seems a wonderful place.',
   'example3':
-      'One world is aware and by far the largest to me, and that is myself',  
-  'example4':
-      'JOHN HUNTER'S ACCOUNT OF THE DISSECTION OF A WHALE'
+      'Scepticism was as much the result of knowledge, as knowledge is of scepticism.'      
 };
 
 function status(statusText) {
@@ -49,11 +47,11 @@ function doPredict(predict) {
   const result = predict(textField.value);
   score_string = "Class scores: ";
   for (var x in result.score) {
-    score_string += x + " ->  " + result.score[x].toFixed(4) + ", "
+    score_string += x + " ->  " + result.score[x].toFixed(3) + ", "
   }
   //console.log(score_string);
   status(
-      score_string + ' elapsed: ' + result.elapsed.toFixed(4) + ' ms)');
+      score_string + ' elapsed: ' + result.elapsed.toFixed(3) + ' ms)');
 }
 
 function prepUI(predict) {
