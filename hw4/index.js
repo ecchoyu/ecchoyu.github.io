@@ -14,7 +14,7 @@ const examples = {
   'example3':
       'One world is aware and by far the largest to me, and that is myself',  
   'example4':
-      'JOHN HUNTER'S ACCOUNT OF THE DISSECTION OF A WHALE'
+      'JOHN HUNTERS ACCOUNT OF THE DISSECTION OF A WHALE'
 };
 
 function status(statusText) {
